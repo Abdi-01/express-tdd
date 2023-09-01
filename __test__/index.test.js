@@ -51,3 +51,10 @@ describe("TRANSACTION API", () => {
     expect(res.body.message).toEqual("Add to cart success");
   });
 });
+
+
+/**
+ * Reference article :
+ * - https://blog.logrocket.com/unit-integration-testing-node-js-apps/#integration-testing
+ * - https://dev.to/ali_adeku/guide-to-writing-integration-tests-in-express-js-with-jest-and-supertest-1059
+ */
